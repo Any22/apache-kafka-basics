@@ -1,9 +1,9 @@
 # Apache Kafka Basics 
 ## How to run the application
 #### 1. Start the Kafka environment by starting the Zookeeper service 
-##### .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+     .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 #### 2. Start the Kafka Broker Service 
-##### .\bin\windows\kafka-server-start.bat .\config\server.properties
+     .\bin\windows\kafka-server-start.bat .\config\server.properties
 #### 3. Run the Spring Application 
 #### 4. Try the following request in the browser or Postman 
 #####   GET:  http:localhost:8080/api/v1/kafka/publish?message=hello world 
@@ -18,6 +18,8 @@
     "lastName": "Xyz"
 }
 ##### Open a command prompt and run this command to check 
-      C:\kafka>.\bin\windows\kafka-console-consumer.bat --topic myfirstmessage_Json --from-beginning --bootstrap-server localhost:9092
+      .\bin\windows\kafka-console-consumer.bat --topic myfirstmessage_Json --from-beginning --bootstrap-server localhost:9092
+
+##### Note : Dont forget to cd into kafka folder first before running any command 
 
 
