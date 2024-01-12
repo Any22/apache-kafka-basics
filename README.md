@@ -24,6 +24,6 @@
 
 ##### Note : Dont forget to cd into kafka folder first before running any command 
 ##### Comand to check all available topics 
-bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+      bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
 
 
