@@ -23,5 +23,7 @@
       .\bin\windows\kafka-console-consumer.bat --topic location-update-topic --from-beginning --bootstrap-server localhost:9092 --partition 0 
 
 ##### Note : Dont forget to cd into kafka folder first before running any command 
+##### Comand to check all available topics 
+bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
 
 
