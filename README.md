@@ -19,6 +19,8 @@
 }
 ##### Open a command prompt and run this command to check 
       .\bin\windows\kafka-console-consumer.bat --topic myfirstmessage_Json --from-beginning --bootstrap-server localhost:9092
+#### another way to run this command
+      .\bin\windows\kafka-console-consumer.bat --topic location-update-topic --from-beginning --bootstrap-server localhost:9092 --partition 0 
 
 ##### Note : Dont forget to cd into kafka folder first before running any command 
 
